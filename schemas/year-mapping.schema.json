@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/dubbyding/open-calendar-data/main/schemas/year-mapping.schema.json",
+  "title": "YearMapping",
+  "type": "object",
+  "required": ["calendar", "year", "ad_start_date", "month_days"],
+  "properties": {
+    "calendar": { "type": "string" },
+    "year": { "type": "integer" },
+    "ad_start_date": { "type": "string", "format": "date" },
+    "month_days": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 28, "maximum": 33 },
+      "minItems": 12,
+      "maxItems": 13
+    }
+  },
+  "additionalProperties": false
+}

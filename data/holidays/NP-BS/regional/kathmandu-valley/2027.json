@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2027,
+  "jurisdiction": "regional:kathmandu-valley",
+  "holidays": [
+    {
+      "id": "np-hamro-2083-12-23-01",
+      "ad_date": "2027-04-06",
+      "name": {
+        "ne": "घोडेजात्रा (काठमाडौं उपत्यका बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 12,
+          "day": 23
+        }
+      }
+    }
+  ]
+}

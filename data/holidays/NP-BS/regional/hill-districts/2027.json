@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2027,
+  "jurisdiction": "regional:hill-districts",
+  "holidays": [
+    {
+      "id": "np-hamro-2083-12-07-01",
+      "ad_date": "2027-03-21",
+      "name": {
+        "ne": "फागु पुर्णिमा (पहाडी जिल्ला)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 12,
+          "day": 7
+        }
+      }
+    }
+  ]
+}

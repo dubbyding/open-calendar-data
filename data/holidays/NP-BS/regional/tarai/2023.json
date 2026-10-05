@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2023,
+  "jurisdiction": "regional:tarai",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-11-23-01",
+      "ad_date": "2023-03-07",
+      "name": {
+        "ne": "फागु पुर्णिमा (तराइ बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 23
+        }
+      }
+    }
+  ]
+}

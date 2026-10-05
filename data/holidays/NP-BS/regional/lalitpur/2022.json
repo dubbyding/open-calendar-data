@@ -1,0 +1,26 @@
+{
+  "country": "NP",
+  "year_ad": 2022,
+  "jurisdiction": "regional:lalitpur",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-01-18-02",
+      "ad_date": "2022-05-01",
+      "name": {
+        "ne": "ललितपुर मत्स्यन्द्रनाथ रथारोहण"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 18
+        }
+      }
+    }
+  ]
+}

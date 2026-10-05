@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2023,
+  "jurisdiction": "regional:gaura-region",
+  "holidays": [
+    {
+      "id": "np-hamro-2080-05-07-01",
+      "ad_date": "2023-08-24",
+      "name": {
+        "ne": "गौरा पर्व (सम्बन्धित क्षेत्रमा बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 7
+        }
+      }
+    }
+  ]
+}

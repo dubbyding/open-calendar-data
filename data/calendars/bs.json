@@ -1,0 +1,34 @@
+{
+  "id": "bs",
+  "name": {
+    "en": "Bikram Sambat",
+    "ne": "विक्रम संवत"
+  },
+  "type": "solilunar",
+  "default_locale": "ne-NP",
+  "first_day_of_week": 7,
+  "standard_weekend": [6],
+  "eras": [
+    {
+      "code": "BS",
+      "name": {
+        "en": "Bikram Sambat",
+        "ne": "विक्रम संवत"
+      }
+    }
+  ],
+  "months": [
+    { "index": 1, "code": "BAISAKH", "name": { "en": "Baisakh", "ne": "वैशाख" } },
+    { "index": 2, "code": "JESTHA", "name": { "en": "Jestha", "ne": "जेठ" } },
+    { "index": 3, "code": "ASHADH", "name": { "en": "Ashadh", "ne": "असार" } },
+    { "index": 4, "code": "SHRAWAN", "name": { "en": "Shrawan", "ne": "साउन" } },
+    { "index": 5, "code": "BHADRA", "name": { "en": "Bhadra", "ne": "भदौ" } },
+    { "index": 6, "code": "ASHWIN", "name": { "en": "Ashwin", "ne": "असोज" } },
+    { "index": 7, "code": "KARTIK", "name": { "en": "Kartik", "ne": "कार्तिक" } },
+    { "index": 8, "code": "MANGSIR", "name": { "en": "Mangsir", "ne": "मंसिर" } },
+    { "index": 9, "code": "PAUSH", "name": { "en": "Paush", "ne": "पुस" } },
+    { "index": 10, "code": "MAGH", "name": { "en": "Magh", "ne": "माघ" } },
+    { "index": 11, "code": "FALGUN", "name": { "en": "Falgun", "ne": "फागुन" } },
+    { "index": 12, "code": "CHAITRA", "name": { "en": "Chaitra", "ne": "चैत" } }
+  ]
+}

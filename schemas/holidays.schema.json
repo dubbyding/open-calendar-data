@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/dubbyding/open-calendar-data/main/schemas/holidays.schema.json",
+  "title": "Holidays",
+  "type": "object",
+  "required": ["country", "year_ad", "jurisdiction", "holidays"],
+  "properties": {
+    "country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "year_ad": { "type": "integer" },
+    "jurisdiction": { "type": "string" },
+    "holidays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "ad_date", "name", "type", "tags"],
+        "properties": {
+          "id": { "type": "string" },
+          "ad_date": { "type": "string", "format": "date" },
+          "name": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "type": {
+            "type": "string",
+            "enum": ["public_holiday", "observance", "bank_holiday", "restricted"]
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["religious", "government", "regional", "female_only", "other"] },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "calendars": {
+            "type": "object",
+            "properties": {
+              "bs": {
+                "type": "object",
+                "required": ["year", "month", "day"],
+                "properties": {
+                  "year": { "type": "integer" },
+                  "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+                  "day": { "type": "integer", "minimum": 1, "maximum": 32 }
+                }
+              }
+            }
+          },
+          "is_recurring": { "type": "boolean" },
+          "recurrence_rule": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

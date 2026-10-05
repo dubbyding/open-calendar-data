@@ -1,0 +1,408 @@
+{
+  "country": "NP",
+  "year_ad": 2027,
+  "jurisdiction": "national",
+  "holidays": [
+    {
+      "id": "np-hamro-2083-09-27-01",
+      "ad_date": "2027-01-11",
+      "name": {
+        "ne": "राष्ट्रिय एकता दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 9,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-09-27-02",
+      "ad_date": "2027-01-11",
+      "name": {
+        "ne": "पृथ्वी जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 9,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-01-01",
+      "ad_date": "2027-01-15",
+      "name": {
+        "ne": "माघे संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-01-02",
+      "ad_date": "2027-01-15",
+      "name": {
+        "ne": "मकर स्नान आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-01-03",
+      "ad_date": "2027-01-15",
+      "name": {
+        "ne": "घ्यु चाकु खाने दिन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-01-04",
+      "ad_date": "2027-01-15",
+      "name": {
+        "ne": "उत्तरायण आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-16-01",
+      "ad_date": "2027-01-30",
+      "name": {
+        "ne": "शहीद दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 16
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-24-01",
+      "ad_date": "2027-02-07",
+      "name": {
+        "ne": "सोनाम ल्होछार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-28-01",
+      "ad_date": "2027-02-11",
+      "name": {
+        "ne": "सरस्वती पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-28-02",
+      "ad_date": "2027-02-11",
+      "name": {
+        "ne": "वसन्तपञ्चमी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-10-28-03",
+      "ad_date": "2027-02-11",
+      "name": {
+        "ne": "विज्ञानमा महिला पहुँचको अन्तर्राष्ट्रिय दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 10,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-07-01",
+      "ad_date": "2027-02-19",
+      "name": {
+        "ne": "प्रजातन्त्र दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-07-02",
+      "ad_date": "2027-02-19",
+      "name": {
+        "ne": "निर्वाचन दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-22-01",
+      "ad_date": "2027-03-06",
+      "name": {
+        "ne": "महाशिवरात्रि"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-22-02",
+      "ad_date": "2027-03-06",
+      "name": {
+        "ne": "नेपाली सेना दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-22-03",
+      "ad_date": "2027-03-06",
+      "name": {
+        "ne": "सिलाचःह्रे पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-24-01",
+      "ad_date": "2027-03-08",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय नारी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "female_only",
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-24-02",
+      "ad_date": "2027-03-08",
+      "name": {
+        "ne": "नारी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "female_only",
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-11-25-01",
+      "ad_date": "2027-03-09",
+      "name": {
+        "ne": "ग्याल्पो ल्होसार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 11,
+          "day": 25
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-12-07-02",
+      "ad_date": "2027-03-21",
+      "name": {
+        "ne": "विश्व कविता दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 12,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2083-12-08-02",
+      "ad_date": "2027-03-22",
+      "name": {
+        "ne": "विश्व जल दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2083,
+          "month": 12,
+          "day": 8
+        }
+      }
+    }
+  ]
+}

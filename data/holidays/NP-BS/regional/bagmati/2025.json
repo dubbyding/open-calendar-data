@@ -1,0 +1,47 @@
+{
+  "country": "NP",
+  "year_ad": 2025,
+  "jurisdiction": "regional:bagmati",
+  "holidays": [
+    {
+      "id": "np-hamro-2082-01-24-01",
+      "ad_date": "2025-05-07",
+      "name": {
+        "ne": "प्रदेश सरकारको सरकारी कामकाजको भाषा सम्बन्धी दिवस(बागमती प्रदेशका लागि मात्र)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "regional",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2082,
+          "month": 1,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2082-04-25-01",
+      "ad_date": "2025-08-10",
+      "name": {
+        "ne": "गाईजात्रा (बागमती प्रदेशका लागि मात्र)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2082,
+          "month": 4,
+          "day": 25
+        }
+      }
+    }
+  ]
+}

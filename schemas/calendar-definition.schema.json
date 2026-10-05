@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/example/calendar-data/main/schemas/calendar-definition.schema.json",
+  "title": "CalendarDefinition",
+  "description": "Defines the structural metadata, months, eras, and weekly cycles of a non-Gregorian calendar system.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "default_locale",
+    "first_day_of_week",
+    "standard_weekend",
+    "eras",
+    "months"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique machine-readable identifier (e.g., 'bs', 'hijri', 'ethiopian').",
+      "pattern": "^[a-z0-9_-]{2,10}$"
+    },
+    "name": {
+      "type": "object",
+      "description": "Name of the calendar system localized into various languages.",
+      "required": ["en"],
+      "additionalProperties": { "type": "string" },
+      "properties": {
+        "en": { "type": "string" }
+      }
+    },
+    "type": {
+      "type": "string",
+      "description": "The astronomical base mechanism of the calendar.",
+      "enum": ["solar", "lunar", "solilunar", "lunisolar"]
+    },
+    "default_locale": {
+      "type": "string",
+      "description": "BCP 47 language tag for default formatting.",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+    },
+    "first_day_of_week": {
+      "type": "integer",
+      "description": "ISO weekday number starting the week (1 = Monday, 7 = Sunday). For Nepal/BS this is typically 7 (Sunday).",
+      "minimum": 1,
+      "maximum": 7
+    },
+    "standard_weekend": {
+      "type": "array",
+      "description": "ISO weekday numbers designated as default weekend rest days.",
+      "items": { "type": "integer", "minimum": 1, "maximum": 7 },
+      "uniqueItems": true,
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "eras": {
+      "type": "array",
+      "description": "Eras used by the calendar system.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["code", "name"],
+        "properties": {
+          "code": { "type": "string", "pattern": "^[A-Z0-9_]+$" },
+          "name": {
+            "type": "object",
+            "required": ["en"],
+            "additionalProperties": { "type": "string" },
+            "properties": {
+              "en": { "type": "string" }
+            }
+          },
+          "abbreviation": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "weekdays": {
+      "type": "array",
+      "description": "Weekday labels indexed 1 (Monday) through 7 (Sunday).",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "required": ["iso_day", "code", "name"],
+        "properties": {
+          "iso_day": { "type": "integer", "minimum": 1, "maximum": 7 },
+          "code": { "type": "string" },
+          "name": {
+            "type": "object",
+            "required": ["en"],
+            "additionalProperties": { "type": "string" },
+            "properties": {
+              "en": { "type": "string" }
+            }
+          },
+          "short_name": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "months": {
+      "type": "array",
+      "description": "List of all months in order.",
+      "minItems": 12,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "required": ["index", "code", "name"],
+        "properties": {
+          "index": {
+            "type": "integer",
+            "description": "1-based ordinal position of the month.",
+            "minimum": 1,
+            "maximum": 13
+          },
+          "code": {
+            "type": "string",
+            "description": "Uppercase invariant identifier used across codebases.",
+            "pattern": "^[A-Z0-9_]+$"
+          },
+          "min_days": {
+            "type": "integer",
+            "description": "Minimum possible days this month can have across any year.",
+            "minimum": 28,
+            "maximum": 32
+          },
+          "max_days": {
+            "type": "integer",
+            "description": "Maximum possible days this month can have across any year.",
+            "minimum": 29,
+            "maximum": 33
+          },
+          "name": {
+            "type": "object",
+            "description": "Full localized names for the month.",
+            "required": ["en"],
+            "additionalProperties": { "type": "string" },
+            "properties": {
+              "en": { "type": "string" }
+            }
+          },
+          "short_name": {
+            "type": "object",
+            "description": "Abbreviated localized names.",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,1755 @@
+{
+  "country": "NP",
+  "year_ad": 2022,
+  "jurisdiction": "national",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-01-01-01",
+      "ad_date": "2022-04-14",
+      "name": {
+        "ne": "नयाँ वर्ष"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-01-02",
+      "ad_date": "2022-04-14",
+      "name": {
+        "ne": "मेष संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-01-03",
+      "ad_date": "2022-04-14",
+      "name": {
+        "ne": "बिस्का: जात्रा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-01-04",
+      "ad_date": "2022-04-14",
+      "name": {
+        "ne": "महावीर जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-01-05",
+      "ad_date": "2022-04-14",
+      "name": {
+        "ne": "प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-18-01",
+      "ad_date": "2022-05-01",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय श्रमिक दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-20-01",
+      "ad_date": "2022-05-03",
+      "name": {
+        "ne": "ईद उल फितर"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-20-02",
+      "ad_date": "2022-05-03",
+      "name": {
+        "ne": "परशुराम जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-20-03",
+      "ad_date": "2022-05-03",
+      "name": {
+        "ne": "विश्व प्रेस स्वतन्त्रता दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-20-04",
+      "ad_date": "2022-05-03",
+      "name": {
+        "ne": "अक्षय तृतीया व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-30-01",
+      "ad_date": "2022-05-13",
+      "name": {
+        "ne": "स्थानीय तह निर्वाचन २०७९"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 30
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-01-30-02",
+      "ad_date": "2022-05-13",
+      "name": {
+        "ne": "प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 1,
+          "day": 30
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-02-01",
+      "ad_date": "2022-05-16",
+      "name": {
+        "ne": "बुद्ध जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-02-02",
+      "ad_date": "2022-05-16",
+      "name": {
+        "ne": "उभौली पर्व"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-02-03",
+      "ad_date": "2022-05-16",
+      "name": {
+        "ne": "गोरखनाथ जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-02-04",
+      "ad_date": "2022-05-16",
+      "name": {
+        "ne": "चण्डी पूर्णिमा व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-02-05",
+      "ad_date": "2022-05-16",
+      "name": {
+        "ne": "बैसाख स्नान समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-15-01",
+      "ad_date": "2022-05-29",
+      "name": {
+        "ne": "गणतन्त्र दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 15
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-02-15-02",
+      "ad_date": "2022-05-29",
+      "name": {
+        "ne": "बटसावित्री व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 2,
+          "day": 15
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-03-26-01",
+      "ad_date": "2022-07-10",
+      "name": {
+        "ne": "बकर इद (ईद ऊल जोहा)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 3,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-03-26-02",
+      "ad_date": "2022-07-10",
+      "name": {
+        "ne": "हरिशयनी एकादशी व्रत (तुलसी रोप्ने)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 3,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-03-26-03",
+      "ad_date": "2022-07-10",
+      "name": {
+        "ne": "चतुर्मास व्रत आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 3,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-04-27-02",
+      "ad_date": "2022-08-12",
+      "name": {
+        "ne": "जनै पूर्णिमा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 4,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-04-27-03",
+      "ad_date": "2022-08-12",
+      "name": {
+        "ne": "रक्षा बन्धन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 4,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-04-27-04",
+      "ad_date": "2022-08-12",
+      "name": {
+        "ne": "संस्कृत दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 4,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-04-27-05",
+      "ad_date": "2022-08-12",
+      "name": {
+        "ne": "ऋषितर्पणी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 4,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-04-27-06",
+      "ad_date": "2022-08-12",
+      "name": {
+        "ne": "क्वाति खाने दिन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 4,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-03-01",
+      "ad_date": "2022-08-19",
+      "name": {
+        "ne": "श्रीकृष्ण जन्माष्टमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-03-03",
+      "ad_date": "2022-08-19",
+      "name": {
+        "ne": "गूङा नवमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-14-01",
+      "ad_date": "2022-08-30",
+      "name": {
+        "ne": "हरितालिका तीज व्रत (महिला विदा)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-14-02",
+      "ad_date": "2022-08-30",
+      "name": {
+        "ne": "विश्व बेपत्ता विरुद्धको दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-24-02",
+      "ad_date": "2022-09-09",
+      "name": {
+        "ne": "अनन्त चतुर्दशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-05-24-03",
+      "ad_date": "2022-09-09",
+      "name": {
+        "ne": "पूर्णिमा व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-02-01",
+      "ad_date": "2022-09-18",
+      "name": {
+        "ne": "जितियापर्व (जितिया पर्व मनाउने महिला कर्मचारीलाई मात्र)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-02-02",
+      "ad_date": "2022-09-18",
+      "name": {
+        "ne": "जितियापर्व"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-02-03",
+      "ad_date": "2022-09-18",
+      "name": {
+        "ne": "अष्टमी श्राद्ध"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-02-04",
+      "ad_date": "2022-09-18",
+      "name": {
+        "ne": "अष्टमी श्राद्ध"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 2
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-03-01",
+      "ad_date": "2022-09-19",
+      "name": {
+        "ne": "संविधान दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-03-02",
+      "ad_date": "2022-09-19",
+      "name": {
+        "ne": "नवमी श्राद्ध"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-10-01",
+      "ad_date": "2022-09-26",
+      "name": {
+        "ne": "घटस्थापना"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-10-02",
+      "ad_date": "2022-09-26",
+      "name": {
+        "ne": "नवरात्र आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-10-03",
+      "ad_date": "2022-09-26",
+      "name": {
+        "ne": "अन्तराष्ट्रिय परमाणु हतियार निर्मुल दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-16-01",
+      "ad_date": "2022-10-02",
+      "name": {
+        "ne": "फूलपाती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 16
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-16-02",
+      "ad_date": "2022-10-02",
+      "name": {
+        "ne": "विश्व अहिंसा दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 16
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-17-01",
+      "ad_date": "2022-10-03",
+      "name": {
+        "ne": "महाअष्टमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 17
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-18-01",
+      "ad_date": "2022-10-04",
+      "name": {
+        "ne": "महानवमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-18-02",
+      "ad_date": "2022-10-04",
+      "name": {
+        "ne": "स्याकूट्याकू"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-18-03",
+      "ad_date": "2022-10-04",
+      "name": {
+        "ne": "विश्व पशु दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-19-01",
+      "ad_date": "2022-10-05",
+      "name": {
+        "ne": "विजया दशमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 19
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-19-02",
+      "ad_date": "2022-10-05",
+      "name": {
+        "ne": "देवी विसर्जन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 19
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-19-03",
+      "ad_date": "2022-10-05",
+      "name": {
+        "ne": "विश्व शिक्षक दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 19
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-20-01",
+      "ad_date": "2022-10-06",
+      "name": {
+        "ne": "पापांकुशा एकादशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-21-01",
+      "ad_date": "2022-10-07",
+      "name": {
+        "ne": "दशैं विदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 21
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-21-02",
+      "ad_date": "2022-10-07",
+      "name": {
+        "ne": "विश्व मुस्कान दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 21
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-06-21-03",
+      "ad_date": "2022-10-07",
+      "name": {
+        "ne": "प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 6,
+          "day": 21
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-01",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "लक्ष्मी पुजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-02",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "महाकवी लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-03",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "सुखरात्री"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-04",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "कुकुर तिहार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-05",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "नरक चतुर्दशी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-06",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "संयुक्त राष्ट्रसंघ दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-07-07",
+      "ad_date": "2022-10-24",
+      "name": {
+        "ne": "विश्व विकास सूचना दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-08-01",
+      "ad_date": "2022-10-25",
+      "name": {
+        "ne": "गाईगोरु पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 8
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-08-02",
+      "ad_date": "2022-10-25",
+      "name": {
+        "ne": "खण्डग्रास सूर्यग्रहण"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 8
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-09-01",
+      "ad_date": "2022-10-26",
+      "name": {
+        "ne": "गोवर्धन पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-09-02",
+      "ad_date": "2022-10-26",
+      "name": {
+        "ne": "म्हपूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-09-03",
+      "ad_date": "2022-10-26",
+      "name": {
+        "ne": "हलि तिहार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-09-04",
+      "ad_date": "2022-10-26",
+      "name": {
+        "ne": "नेपाल सम्वत ११४३ प्रारम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-09-05",
+      "ad_date": "2022-10-26",
+      "name": {
+        "ne": "अन्तरलिङ्गी जनचेतना दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-10-01",
+      "ad_date": "2022-10-27",
+      "name": {
+        "ne": "भाइटीका"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-10-02",
+      "ad_date": "2022-10-27",
+      "name": {
+        "ne": "किजा पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-11-01",
+      "ad_date": "2022-10-28",
+      "name": {
+        "ne": "तिहार विदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-13-01",
+      "ad_date": "2022-10-30",
+      "name": {
+        "ne": "छठपर्व व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 13
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-01",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "गुरु नानक जयन्ती (सिख धर्मावलम्बीहरुलाई मात्र)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-02",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "खग्रास चन्द्रग्रहण"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-03",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "निम्बार्काचार्य जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-04",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "चतुर्मास व्रत समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-05",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "कार्तिक स्नान समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-07-22-06",
+      "ad_date": "2022-11-08",
+      "name": {
+        "ne": "विश्व रेडियोग्राफी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 7,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-04-01",
+      "ad_date": "2022-11-20",
+      "name": {
+        "ne": "प्रतिनिधिसभा तथा प्रदेशसभा सदस्य निर्वाचन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 4
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-04-02",
+      "ad_date": "2022-11-20",
+      "name": {
+        "ne": "निर्वाचन विदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 4
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-04-03",
+      "ad_date": "2022-11-20",
+      "name": {
+        "ne": "उत्पत्तिका एकादशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 4
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-04-04",
+      "ad_date": "2022-11-20",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय बाल दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 4
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-05-01",
+      "ad_date": "2022-11-21",
+      "name": {
+        "ne": "निर्वाचन विदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 5
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-05-02",
+      "ad_date": "2022-11-21",
+      "name": {
+        "ne": "विश्व टेलिभिजन दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 5
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-05-03",
+      "ad_date": "2022-11-21",
+      "name": {
+        "ne": "सोम प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 5
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-22-01",
+      "ad_date": "2022-12-08",
+      "name": {
+        "ne": "उधौली पर्व"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-22-02",
+      "ad_date": "2022-12-08",
+      "name": {
+        "ne": "धान्यपुर्णिमा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-22-03",
+      "ad_date": "2022-12-08",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय मर्यादित महिनावारी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-08-22-04",
+      "ad_date": "2022-12-08",
+      "name": {
+        "ne": "य:मरि पुन्हि"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 8,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-09-10-01",
+      "ad_date": "2022-12-25",
+      "name": {
+        "ne": "क्रिसमस-डे"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-09-15-01",
+      "ad_date": "2022-12-30",
+      "name": {
+        "ne": "तमु ल्होसार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 9,
+          "day": 15
+        }
+      }
+    }
+  ]
+}

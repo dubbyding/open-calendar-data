@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2022,
+  "jurisdiction": "regional:ramechhap",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-05-03-02",
+      "ad_date": "2022-08-19",
+      "name": {
+        "ne": "रामेछाप चिसापानी हिले जात्रा"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 5,
+          "day": 3
+        }
+      }
+    }
+  ]
+}

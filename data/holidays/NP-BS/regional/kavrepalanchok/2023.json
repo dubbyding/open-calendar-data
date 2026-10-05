@@ -1,0 +1,27 @@
+{
+  "country": "NP",
+  "year_ad": 2023,
+  "jurisdiction": "regional:kavrepalanchok",
+  "holidays": [
+    {
+      "id": "np-hamro-2080-01-22-03",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "चण्डेश्वरी जात्रा"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    }
+  ]
+}

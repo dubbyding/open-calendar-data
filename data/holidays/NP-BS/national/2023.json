@@ -1,0 +1,2135 @@
+{
+  "country": "NP",
+  "year_ad": 2023,
+  "jurisdiction": "national",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-09-27-01",
+      "ad_date": "2023-01-11",
+      "name": {
+        "ne": "पृथ्वी जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 9,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-09-27-02",
+      "ad_date": "2023-01-11",
+      "name": {
+        "ne": "राष्ट्रिय एकता दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 9,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-01-01",
+      "ad_date": "2023-01-15",
+      "name": {
+        "ne": "माघे संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-01-02",
+      "ad_date": "2023-01-15",
+      "name": {
+        "ne": "मकर संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-01-03",
+      "ad_date": "2023-01-15",
+      "name": {
+        "ne": "घ्यु चाकु खाने दिन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-01-04",
+      "ad_date": "2023-01-15",
+      "name": {
+        "ne": "उत्तरायण आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-01-05",
+      "ad_date": "2023-01-15",
+      "name": {
+        "ne": "मकर स्नान आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-08-01",
+      "ad_date": "2023-01-22",
+      "name": {
+        "ne": "सोनाम ल्होछार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 8
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-08-02",
+      "ad_date": "2023-01-22",
+      "name": {
+        "ne": "श्रीबल्लभ जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 8
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-12-01",
+      "ad_date": "2023-01-26",
+      "name": {
+        "ne": "वसन्तपञ्चमी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 12
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-12-02",
+      "ad_date": "2023-01-26",
+      "name": {
+        "ne": "सरस्वती पूजा (शिक्षण संस्था विदा)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 12
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-12-03",
+      "ad_date": "2023-01-26",
+      "name": {
+        "ne": "राष्ट्रिय पुस्तक दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 12
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-10-12-04",
+      "ad_date": "2023-01-26",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय भन्सार दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 10,
+          "day": 12
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-01-01",
+      "ad_date": "2023-02-13",
+      "name": {
+        "ne": "जनयुद्ध दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-01-02",
+      "ad_date": "2023-02-13",
+      "name": {
+        "ne": "विश्व रेडियो दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-01-03",
+      "ad_date": "2023-02-13",
+      "name": {
+        "ne": "कुम्भ संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-06-01",
+      "ad_date": "2023-02-18",
+      "name": {
+        "ne": "महा शिवरात्री"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 6
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-06-02",
+      "ad_date": "2023-02-18",
+      "name": {
+        "ne": "नेपाली सेना दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 6
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-06-03",
+      "ad_date": "2023-02-18",
+      "name": {
+        "ne": "सिलाचःह्रे पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 6
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-06-04",
+      "ad_date": "2023-02-18",
+      "name": {
+        "ne": "शनि प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 6
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-07-01",
+      "ad_date": "2023-02-19",
+      "name": {
+        "ne": "प्रजातन्त्र दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-07-02",
+      "ad_date": "2023-02-19",
+      "name": {
+        "ne": "निर्वाचन दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-09-01",
+      "ad_date": "2023-02-21",
+      "name": {
+        "ne": "ग्याल्पो ल्होछार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-09-02",
+      "ad_date": "2023-02-21",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय मातृभाषा दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-23-02",
+      "ad_date": "2023-03-07",
+      "name": {
+        "ne": "पूर्णिमा व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 23
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-24-01",
+      "ad_date": "2023-03-08",
+      "name": {
+        "ne": "नारी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-24-02",
+      "ad_date": "2023-03-08",
+      "name": {
+        "ne": "तेल लगाउने र आँपको मुजुरा खाने दिन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2079-11-24-03",
+      "ad_date": "2023-03-08",
+      "name": {
+        "ne": "गणगौरपूजा प्रारम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 11,
+          "day": 24
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-01-01",
+      "ad_date": "2023-04-14",
+      "name": {
+        "ne": "नयाँ वर्ष"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-01-02",
+      "ad_date": "2023-04-14",
+      "name": {
+        "ne": "मेष संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-01-03",
+      "ad_date": "2023-04-14",
+      "name": {
+        "ne": "बिस्का: जात्रा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-09-01",
+      "ad_date": "2023-04-22",
+      "name": {
+        "ne": "ईद उल फितर"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-09-02",
+      "ad_date": "2023-04-22",
+      "name": {
+        "ne": "परशुराम जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-09-03",
+      "ad_date": "2023-04-22",
+      "name": {
+        "ne": "विश्व पृथ्वी दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-18-01",
+      "ad_date": "2023-05-01",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय श्रमिक दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-18-02",
+      "ad_date": "2023-05-01",
+      "name": {
+        "ne": "मोहिनी एकादशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 18
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-01",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "बुद्ध जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-02",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "उभौली पर्व"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-04",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "चण्डी पूर्णिमा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-05",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "कुर्म जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-06",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "गोरखनाथ जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-07",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "पूर्णिमा व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-01-22-08",
+      "ad_date": "2023-05-05",
+      "name": {
+        "ne": "बैसाख स्नान समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 1,
+          "day": 22
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-02-15-01",
+      "ad_date": "2023-05-29",
+      "name": {
+        "ne": "गणतन्त्र दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 2,
+          "day": 15
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-03-14-01",
+      "ad_date": "2023-06-29",
+      "name": {
+        "ne": "ईद उल अधा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 3,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-03-14-02",
+      "ad_date": "2023-06-29",
+      "name": {
+        "ne": "हरिशयनी एकादशी व्रत (तुलसी रोप्ने)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 3,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-03-14-03",
+      "ad_date": "2023-06-29",
+      "name": {
+        "ne": "चतुर्मास व्रत आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 3,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-14-01",
+      "ad_date": "2023-08-31",
+      "name": {
+        "ne": "जनै पूर्णिमा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-14-02",
+      "ad_date": "2023-08-31",
+      "name": {
+        "ne": "रक्षा बन्धन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-15-02",
+      "ad_date": "2023-09-01",
+      "name": {
+        "ne": "रोपाईं जात्रा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 15
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-20-01",
+      "ad_date": "2023-09-06",
+      "name": {
+        "ne": "श्रीकृष्ण जन्माष्टमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-20-02",
+      "ad_date": "2023-09-06",
+      "name": {
+        "ne": "मानव बेचबिखन विरुद्धको राष्ट्रिय दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-01",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "हरितालिका तीज व्रत (महिला विदा)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-02",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "गणेश चतुर्थी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-03",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "राष्ट्रिय धर्मसभा दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-04",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "वास्तु दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-05",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "विश्वकर्मा पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-06",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "कन्या संक्रान्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-01-07",
+      "ad_date": "2023-09-18",
+      "name": {
+        "ne": "राष्ट्रिय चलचित्र दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 1
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-03-01",
+      "ad_date": "2023-09-20",
+      "name": {
+        "ne": "संविधान दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-11-02",
+      "ad_date": "2023-09-28",
+      "name": {
+        "ne": "अनन्त चतुर्दशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-11-03",
+      "ad_date": "2023-09-28",
+      "name": {
+        "ne": "विश्व रेबिज विरुद्ध दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-11-04",
+      "ad_date": "2023-09-28",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय सूचनामा विश्वव्यापी पहुँचको दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-20-01",
+      "ad_date": "2023-10-07",
+      "name": {
+        "ne": "जितिया पर्व (पर्व मनाउने महिला कर्मचारीलाई मात्र बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-20-02",
+      "ad_date": "2023-10-07",
+      "name": {
+        "ne": "नवमी श्राद्ध"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 20
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-28-01",
+      "ad_date": "2023-10-15",
+      "name": {
+        "ne": "घटस्थापना"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-28-02",
+      "ad_date": "2023-10-15",
+      "name": {
+        "ne": "नवरात्र आरम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-28-03",
+      "ad_date": "2023-10-15",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय ग्रामीण महिला दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-28-04",
+      "ad_date": "2023-10-15",
+      "name": {
+        "ne": "विश्व हातधुने दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-04-01",
+      "ad_date": "2023-10-21",
+      "name": {
+        "ne": "फूलपाती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 4
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-05-01",
+      "ad_date": "2023-10-22",
+      "name": {
+        "ne": "महाअष्टमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 5
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-05-02",
+      "ad_date": "2023-10-22",
+      "name": {
+        "ne": "कालरात्रि"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 5
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-06-01",
+      "ad_date": "2023-10-23",
+      "name": {
+        "ne": "महानवमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 6
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-07-01",
+      "ad_date": "2023-10-24",
+      "name": {
+        "ne": "विजया दशमी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-07-02",
+      "ad_date": "2023-10-24",
+      "name": {
+        "ne": "देवी विसर्जन"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-07-03",
+      "ad_date": "2023-10-24",
+      "name": {
+        "ne": "संयुक्त राष्ट्रसंघ दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-07-04",
+      "ad_date": "2023-10-24",
+      "name": {
+        "ne": "विश्व विकास सूचना दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-08-01",
+      "ad_date": "2023-10-25",
+      "name": {
+        "ne": "पापांकुशा एकादशी व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 8
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-09-01",
+      "ad_date": "2023-10-26",
+      "name": {
+        "ne": "दशैं बिदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-09-02",
+      "ad_date": "2023-10-26",
+      "name": {
+        "ne": "प्रदोष व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-25-01",
+      "ad_date": "2023-11-11",
+      "name": {
+        "ne": "महागुरु फाल्गुनन्द जयन्ती (किराँत धर्मावलम्बीहरूलाई बिदा)"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 25
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-25-02",
+      "ad_date": "2023-11-11",
+      "name": {
+        "ne": "धनवन्तरी जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 25
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-25-03",
+      "ad_date": "2023-11-11",
+      "name": {
+        "ne": "काग तिहार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 25
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-26-01",
+      "ad_date": "2023-11-12",
+      "name": {
+        "ne": "लक्ष्मी पुजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-26-02",
+      "ad_date": "2023-11-12",
+      "name": {
+        "ne": "महाकवी लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-26-03",
+      "ad_date": "2023-11-12",
+      "name": {
+        "ne": "नरक चतुर्दशी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-26-04",
+      "ad_date": "2023-11-12",
+      "name": {
+        "ne": "सुखरात्री"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-26-05",
+      "ad_date": "2023-11-12",
+      "name": {
+        "ne": "कुकुर तिहार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 26
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-27-01",
+      "ad_date": "2023-11-13",
+      "name": {
+        "ne": "गाई तिहार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-27-02",
+      "ad_date": "2023-11-13",
+      "name": {
+        "ne": "सोमबारे औंसी"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 27
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-28-01",
+      "ad_date": "2023-11-14",
+      "name": {
+        "ne": "गोवर्धन पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-28-02",
+      "ad_date": "2023-11-14",
+      "name": {
+        "ne": "म्ह: पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-28-03",
+      "ad_date": "2023-11-14",
+      "name": {
+        "ne": "नेपाल सम्वत ११४४ प्रारम्भ"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-28-04",
+      "ad_date": "2023-11-14",
+      "name": {
+        "ne": "विश्व मधुमेह दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 28
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-29-01",
+      "ad_date": "2023-11-15",
+      "name": {
+        "ne": "भाई टिका"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 29
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-29-02",
+      "ad_date": "2023-11-15",
+      "name": {
+        "ne": "किजा पूजा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 29
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-30-01",
+      "ad_date": "2023-11-16",
+      "name": {
+        "ne": "तिहार बिदा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 30
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-07-30-02",
+      "ad_date": "2023-11-16",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय सहनशीलता दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 7,
+          "day": 30
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-03-01",
+      "ad_date": "2023-11-19",
+      "name": {
+        "ne": "छठपर्व व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-03-02",
+      "ad_date": "2023-11-19",
+      "name": {
+        "ne": "विश्व शौचालय दिवस"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 3
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-11-01",
+      "ad_date": "2023-11-27",
+      "name": {
+        "ne": "गुरु नानक जयन्ती (सिख धर्मावलम्बीहरुलाई मात्र बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-11-02",
+      "ad_date": "2023-11-27",
+      "name": {
+        "ne": "चतुर्मास व्रत समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-11-03",
+      "ad_date": "2023-11-27",
+      "name": {
+        "ne": "कार्तिक स्नान समाप्ति"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-11-04",
+      "ad_date": "2023-11-27",
+      "name": {
+        "ne": "निम्बार्काचार्य जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-08-17-01",
+      "ad_date": "2023-12-03",
+      "name": {
+        "ne": "अन्तर्राष्ट्रिय अपाङ्ग दिवस (अपाङ्गता भएका कर्मचारी मात्र बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 8,
+          "day": 17
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-09-01",
+      "ad_date": "2023-12-25",
+      "name": {
+        "ne": "क्रिसमस-डे"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 9
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-01",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "उधौली पर्व"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-02",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "धान्यपुर्णिमा"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-03",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "य:मरि पुन्हि"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-05",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "दत्तात्रेय जयन्ती"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-06",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "पूर्णिमा व्रत"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-15-01",
+      "ad_date": "2023-12-31",
+      "name": {
+        "ne": "तमु ल्होसार"
+      },
+      "type": "public_holiday",
+      "tags": [
+        "government",
+        "religious"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 15
+        }
+      }
+    }
+  ]
+}

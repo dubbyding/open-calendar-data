@@ -1,0 +1,107 @@
+{
+  "country": "NP",
+  "year_ad": 2023,
+  "jurisdiction": "regional:kathmandu-valley",
+  "holidays": [
+    {
+      "id": "np-hamro-2079-12-07-01",
+      "ad_date": "2023-03-21",
+      "name": {
+        "ne": "घोडेजात्रा"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2079,
+          "month": 12,
+          "day": 7
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-14-03",
+      "ad_date": "2023-08-31",
+      "name": {
+        "ne": "गाईजात्रा"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 14
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-05-15-01",
+      "ad_date": "2023-09-01",
+      "name": {
+        "ne": "सापारु (गाईजात्रा) (काठमाडौँ बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 5,
+          "day": 15
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-06-11-01",
+      "ad_date": "2023-09-28",
+      "name": {
+        "ne": "इन्द्रजात्रा (काठमाडौँ उपत्यका बिदा)"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "religious",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 6,
+          "day": 11
+        }
+      }
+    },
+    {
+      "id": "np-hamro-2080-09-10-04",
+      "ad_date": "2023-12-26",
+      "name": {
+        "ne": "ज्यापु दिवस"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "regional",
+        "other"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2080,
+          "month": 9,
+          "day": 10
+        }
+      }
+    }
+  ]
+}

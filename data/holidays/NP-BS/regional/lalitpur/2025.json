@@ -1,0 +1,26 @@
+{
+  "country": "NP",
+  "year_ad": 2025,
+  "jurisdiction": "regional:lalitpur",
+  "holidays": [
+    {
+      "id": "np-hamro-2082-01-18-02",
+      "ad_date": "2025-05-01",
+      "name": {
+        "ne": "बुंगद्यः (रातो मच्छिन्द्रनाथ) रथ यात्रा प्रारम्भ"
+      },
+      "type": "restricted",
+      "tags": [
+        "government",
+        "regional"
+      ],
+      "calendars": {
+        "bs": {
+          "year": 2082,
+          "month": 1,
+          "day": 18
+        }
+      }
+    }
+  ]
+}
