@@ -3,6 +3,9 @@ name: Validate Data
 on:
   push:
     branches: [main]
+    # The checksum bot's commits only touch data/sha/; nothing to validate.
+    paths-ignore:
+      - "data/sha/**"
   pull_request:
     branches: [main]
 
