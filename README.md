@@ -1,12 +1,41 @@
 # Open Calendar & Holiday Data
 
-[![Validate Data](https://github.com/dubbyding/open-calendar-data/actions/workflows/validate-schemas.yml/badge.svg)](https://github.com/your-org/calendar-data/actions)
+[![Validate Data](https://github.com/dubbyding/open-calendar-data/actions/workflows/validate-schemas.yml/badge.svg)](https://github.com/dubbyding/open-calendar-data/actions/workflows/validate-schemas.yml)
+[![Publish Data](https://github.com/dubbyding/open-calendar-data/actions/workflows/publish.yml/badge.svg)](https://github.com/dubbyding/open-calendar-data/actions/workflows/publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 An open-source, schema-validated repository linking ISO 8601 (Gregorian / AD) to regional calendar systems (such as Bikram Sambat / BS) and jurisdictional public holiday datasets.
 
 Computers and POSIX systems rely on the Gregorian calendar as an internal standard. This project maps non-Gregorian calendar systems to Gregorian dates via strict algorithmic ranges, paired with standardized holiday datasets indexed by canonical ISO dates (`YYYY-MM-DD`).
+
+---
+
+## Hosted Data
+
+Every push to `main` is validated, built, and published to GitHub Pages:
+
+| File | URL |
+| --- | --- |
+| Index of all calendars | <https://dubbyding.github.io/open-calendar-data/index.json> |
+| Bikram Sambat (BS) bundle | <https://dubbyding.github.io/open-calendar-data/bs.min.json> |
+
+Each calendar is published as `https://dubbyding.github.io/open-calendar-data/<calendar>.min.json`. Fetch `index.json` to discover the available calendars, their mapped years, and holiday countries.
+
+Each bundle contains the calendar definition, all year mappings, and all holidays for that calendar:
+
+```json
+{
+  "calendar": { "id": "bs", "name": { "en": "Bikram Sambat" }, "...": "..." },
+  "mappings": { "2082": { "calendar": "bs", "year": 2082, "ad_start_date": "2025-04-14", "month_days": [31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30] } },
+  "holidays": { "NP": { "national": [], "regional:kathmandu-valley": [] } }
+}
+```
+
+```js
+const res = await fetch("https://dubbyding.github.io/open-calendar-data/bs.min.json");
+const { calendar, mappings, holidays } = await res.json();
+```
 
 ---
 
@@ -66,7 +95,7 @@ npm run test:validate
 
 ### Build Distribution Files
 
-Bundles individual year files into optimized distributions in `/dist`:
+Bundles each calendar's definition, year mappings, and holidays into `dist/<calendar>.min.json`, plus a `dist/index.json` manifest:
 
 ```bash
 npm run build
