@@ -51,5 +51,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: update data/sha checksums [skip ci]"
+          # No [skip ci]: it would also skip Publish Data when a release tag lands on this
+          # commit. Validate/Checksums ignore data/sha/** via their path filters instead.
+          git commit -m "chore: update data/sha checksums"
           git push
