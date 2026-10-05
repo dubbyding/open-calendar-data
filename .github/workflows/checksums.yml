@@ -1,0 +1,55 @@
+name: Update Checksums
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "!data/sha/**"
+      - "scripts/checksums.ts"
+  workflow_dispatch:
+
+# GITHUB_TOKEN stays read-only; the push goes through the write-enabled
+# "checksums-ci" deploy key, which a main-branch ruleset can allow to bypass.
+permissions:
+  contents: read
+
+concurrency:
+  group: checksums
+  cancel-in-progress: false
+
+jobs:
+  checksums:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          ssh-key: ${{ secrets.CHECKSUM_DEPLOY_KEY }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Validate Data
+        run: npm run test:validate
+
+      - name: Generate data/sha/<calendar>/SHA256SUMS
+        run: npm run checksums
+
+      - name: Commit Checksums
+        run: |
+          git add -A data/sha
+          if git diff --cached --quiet; then
+            echo "data/sha already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update data/sha checksums [skip ci]"
+          git push

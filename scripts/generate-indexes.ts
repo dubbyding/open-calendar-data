@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { SUMS_FILE, calendarChecksums, formatSums, sha256 } from "./checksums";
 
 // Builds one bundle per calendar: dist/<calendar>.min.json
 // {
@@ -8,7 +9,8 @@ import path from "path";
 //   holidays: { "<COUNTRY>": { "<jurisdiction>": [ ...holidays sorted by ad_date ] } }
 // }
 // Holidays are picked up from data/holidays/<COUNTRY>-<CALENDAR>/**/<year>.json.
-// dist/index.json lists every generated bundle so consumers can discover them.
+// dist/index.json lists every generated bundle (with its sha256) so consumers can discover them.
+// dist/sha/<calendar>/SHA256SUMS mirrors data/sha/<calendar>/SHA256SUMS plus the bundle's own hash.
 
 const DATA_DIR = path.resolve("data");
 const OUTPUT_DIR = path.resolve("dist");
@@ -76,9 +78,20 @@ for (const file of calendarFiles) {
   const holidayCount = Object.values(holidays)
     .flatMap((byJurisdiction) => Object.values(byJurisdiction))
     .reduce((sum, list) => sum + list.length, 0);
+  // Source files keyed by repo path, the bundle by its published name (as fetched from Pages).
+  const bundleHash = sha256(outFile);
+  const sumsFile = path.join(OUTPUT_DIR, "sha", calendar, SUMS_FILE);
+  fs.mkdirSync(path.dirname(sumsFile), { recursive: true });
+  fs.writeFileSync(
+    sumsFile,
+    formatSums({ ...calendarChecksums(calendar), [path.basename(outFile)]: bundleHash })
+  );
+
   index.push({
     id: calendar,
     file: path.basename(outFile),
+    sha256: bundleHash,
+    checksums: path.relative(OUTPUT_DIR, sumsFile).split(path.sep).join("/"),
     years: Object.keys(mappings).map(Number),
     countries: Object.keys(holidays),
     holidays: holidayCount,
@@ -94,3 +107,4 @@ fs.writeFileSync(
   JSON.stringify({ generated_at: new Date().toISOString(), calendars: index }, null, 2)
 );
 console.log("Generated dist/index.json");
+

@@ -1,0 +1,2 @@
+# Pin LF so SHA256SUMS matches the checked-out bytes on every OS.
+* text=auto eol=lf
