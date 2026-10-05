@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test:validate": "tsx scripts/validator.ts",
-    "build": "tsx scripts/generate-indexes.ts"
+    "build": "tsx scripts/generate-indexes.ts",
+    "checksums": "tsx scripts/checksums.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",

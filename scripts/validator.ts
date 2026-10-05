@@ -96,6 +96,9 @@ for (const top of fs.readdirSync(DATA_DIR, { withFileTypes: true })) {
   const topPath = path.join(DATA_DIR, top.name);
   if (!top.isDirectory()) continue;
 
+  // data/sha/ holds generated SHA256SUMS (scripts/checksums.ts), not schema'd data.
+  if (top.name === "sha") continue;
+
   const rule = RULES[top.name];
   if (!rule) {
     fail(topPath, `no schema registered for data/${top.name}/ (add it to RULES in scripts/validator.ts)`);

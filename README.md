@@ -37,6 +37,25 @@ const res = await fetch("https://dubbyding.github.io/open-calendar-data/bs.min.j
 const { calendar, mappings, holidays } = await res.json();
 ```
 
+### Verifying Data
+
+Every merge to `main` regenerates `data/sha/<calendar>/SHA256SUMS` (SHA-256 of every data file for that calendar: its definition, year mappings and holidays) and commits it back. Each release publishes the same file at `sha/<calendar>/SHA256SUMS`, plus the hash of the bundle itself:
+
+| File | Contents |
+| --- | --- |
+| [`data/sha/bs/SHA256SUMS`](data/sha/bs/SHA256SUMS) | `sha256sum` format: every BS data file |
+| <https://dubbyding.github.io/open-calendar-data/sha/bs/SHA256SUMS> | Same, plus `bs.min.json` |
+| `index.json` → `calendars[].sha256` | Hash of each `<calendar>.min.json` bundle |
+
+```bash
+# Verify a repo checkout (from the repo root)
+sha256sum -c data/sha/bs/SHA256SUMS
+
+# Verify a downloaded bundle
+curl -sO https://dubbyding.github.io/open-calendar-data/bs.min.json
+curl -s https://dubbyding.github.io/open-calendar-data/sha/bs/SHA256SUMS | sha256sum -c --ignore-missing
+```
+
 ---
 
 ## Repository Architecture
@@ -52,7 +71,8 @@ calendar-data/
 │   ├── mappings/           # Year-to-AD alignment tables
 │   │   └── bs/             # Bikram Sambat year definitions
 │   └── holidays/           # Public and cultural holiday lists
-│       ├── NP/             # ISO 3166-1 alpha-2 (Nepal)
+│   │   ├── NP/             # ISO 3166-1 alpha-2 (Nepal)
+│   └── sha/                # Generated SHA256SUMS per calendar (CI-maintained)
 ├── scripts/                # Validation and build scripts
 └── dist/                   # Compiled, bundled JSON distributions
 ```
