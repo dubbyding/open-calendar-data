@@ -13,7 +13,7 @@ Computers and POSIX systems rely on the Gregorian calendar as an internal standa
 
 ## Hosted Data
 
-Every push to `main` is validated, built, and published to GitHub Pages:
+Every release tag (`v*`, e.g. `v1.2.0`) is validated, built, and published to GitHub Pages:
 
 | File | URL |
 | --- | --- |
