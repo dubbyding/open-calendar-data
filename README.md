@@ -18,41 +18,59 @@ Every release tag (`v*`, e.g. `v1.2.0`) is validated, built, and published to Gi
 | File | URL |
 | --- | --- |
 | Index of all calendars | <https://dubbyding.github.io/open-calendar-data/index.json> |
-| Bikram Sambat (BS) bundle | <https://dubbyding.github.io/open-calendar-data/bs.min.json> |
+| Bikram Sambat (BS) manifest | <https://dubbyding.github.io/open-calendar-data/bs.min.json> |
+| BS year file (e.g. 2082) | <https://dubbyding.github.io/open-calendar-data/bs/2082.min.json> |
 
-Each calendar is published as `https://dubbyding.github.io/open-calendar-data/<calendar>.min.json`. Fetch `index.json` to discover the available calendars, their mapped years, and holiday countries.
+Each calendar publishes a manifest at `<calendar>.min.json` and one file per year at `<calendar>/<year>.min.json`. Fetch `index.json` to discover the available calendars, their mapped years, and holiday countries.
 
-Each bundle contains the calendar definition, all year mappings, and all holidays for that calendar:
+The manifest holds the calendar definition and lists every available year file with its SHA-256:
 
 ```json
 {
   "calendar": { "id": "bs", "name": { "en": "Bikram Sambat" }, "...": "..." },
-  "mappings": { "2082": { "calendar": "bs", "year": 2082, "ad_start_date": "2025-04-14", "month_days": [31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30] } },
+  "years": [
+    { "year": 2081, "file": "bs/2081.min.json", "sha256": "d5fd7a3c…", "holidays": 127 },
+    { "year": 2082, "file": "bs/2082.min.json", "sha256": "ef6d5298…", "holidays": 143 }
+  ]
+}
+```
+
+Each year file holds that year's mapping and the holidays falling in it (grouped by the holiday's `calendars.<calendar>.year`):
+
+```json
+{
+  "calendar": "bs",
+  "year": 2082,
+  "mapping": { "calendar": "bs", "year": 2082, "ad_start_date": "2025-04-14", "month_days": [31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30] },
   "holidays": { "NP": { "national": [], "regional:kathmandu-valley": [] } }
 }
 ```
 
 ```js
-const res = await fetch("https://dubbyding.github.io/open-calendar-data/bs.min.json");
-const { calendar, mappings, holidays } = await res.json();
+const BASE = "https://dubbyding.github.io/open-calendar-data/";
+const { calendar, years } = await (await fetch(BASE + "bs.min.json")).json();
+const entry = years.find((y) => y.year === 2082);
+const { mapping, holidays } = await (await fetch(BASE + entry.file)).json();
 ```
 
 ### Verifying Data
 
-Every merge to `main` regenerates `data/sha/<calendar>/SHA256SUMS` (SHA-256 of every data file for that calendar: its definition, year mappings and holidays) and commits it back. Each release publishes the same file at `sha/<calendar>/SHA256SUMS`, plus the hash of the bundle itself:
+Every merge to `main` regenerates `data/sha/<calendar>/SHA256SUMS` (SHA-256 of every data file for that calendar: its definition, year mappings and holidays) and commits it back. Each release publishes the same file at `sha/<calendar>/SHA256SUMS`, plus the hash of every published file:
 
 | File | Contents |
 | --- | --- |
 | [`data/sha/bs/SHA256SUMS`](data/sha/bs/SHA256SUMS) | `sha256sum` format: every BS data file |
-| <https://dubbyding.github.io/open-calendar-data/sha/bs/SHA256SUMS> | Same, plus `bs.min.json` |
-| `index.json` → `calendars[].sha256` | Hash of each `<calendar>.min.json` bundle |
+| <https://dubbyding.github.io/open-calendar-data/sha/bs/SHA256SUMS> | Same, plus `bs.min.json` and every `bs/<year>.min.json` |
+| `bs.min.json` → `years[].sha256` | Hash of each `bs/<year>.min.json` year file |
+| `index.json` → `calendars[].sha256` | Hash of each `<calendar>.min.json` manifest |
 
 ```bash
 # Verify a repo checkout (from the repo root)
 sha256sum -c data/sha/bs/SHA256SUMS
 
-# Verify a downloaded bundle
+# Verify downloaded files (keep the published paths)
 curl -sO https://dubbyding.github.io/open-calendar-data/bs.min.json
+curl -s --create-dirs -o bs/2082.min.json https://dubbyding.github.io/open-calendar-data/bs/2082.min.json
 curl -s https://dubbyding.github.io/open-calendar-data/sha/bs/SHA256SUMS | sha256sum -c --ignore-missing
 ```
 
